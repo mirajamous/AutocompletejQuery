@@ -2,21 +2,21 @@ $buttonColor:#ff0080;
 $mainFont:"Dancing Script", cursive;
 $bodyColor:#ffe6f2;
 
-body{
+body {
     background-color: $bodyColor !important;
 }
 
-.btnPink{
+.btnPink {
     background-color: $buttonColor !important;
 }
 
-h1,h2{
+h1,h2 {
     font-family: $mainFont;
     color: $buttonColor !important;
 }
 
-.homePage{
-p{
+.homePage {
+    p {
     font: {
         size:25px;
         family: $mainFont;
@@ -24,20 +24,20 @@ p{
 }
 }
 
-.form-control:focus{
+.form-control:focus {
     border-color: $buttonColor !important;
     box-shadow: 0 0 0 0.25rem rgba(255, 0, 128, 0.25) !important;
 }
 
-.list-group{
+.list-group {
 
-    .list-group-item{
+    .list-group-item {
         padding-bottom: 40px;
         border: none;
         text-decoration: none;
         display: inline;
         background-color: $bodyColor ;
-        a{
+        a {
            text-decoration: none;
            color: $buttonColor;
            font : {
@@ -47,10 +47,10 @@ p{
             style: italic;
            }  
         }
-        a:hover{
+        a:hover {
             text-decoration: underline;
         }
-       p{
+       p {
         font-size: 18px;
         text-align: justify;
        }
@@ -75,6 +75,6 @@ p{
     background-color: $bodyColor;
 }
 
-.ui-helper-hidden-accessible{
+.ui-helper-hidden-accessible {
     display:none;
 }

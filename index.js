@@ -48,7 +48,7 @@ $(document).ready(function () {
     });
     
 
-    function animationFun(){
+    function animationFun() {
         $("html, body").animate({
             scrollTop: $("#result-title").offset().top-35
         }, 500);
