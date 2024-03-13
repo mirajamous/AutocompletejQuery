@@ -1,0 +1,80 @@
+$buttonColor:#ff0080;
+$mainFont:"Dancing Script", cursive;
+$bodyColor:#ffe6f2;
+
+body{
+    background-color: $bodyColor !important;
+}
+
+.btnPink{
+    background-color: $buttonColor !important;
+}
+
+h1,h2{
+    font-family: $mainFont;
+    color: $buttonColor !important;
+}
+
+.homePage{
+p{
+    font: {
+        size:25px;
+        family: $mainFont;
+    }
+}
+}
+
+.form-control:focus{
+    border-color: $buttonColor !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 128, 0.25) !important;
+}
+
+.list-group{
+
+    .list-group-item{
+        padding-bottom: 40px;
+        border: none;
+        text-decoration: none;
+        display: inline;
+        background-color: $bodyColor ;
+        a{
+           text-decoration: none;
+           color: $buttonColor;
+           font : {
+            size: 26px;
+            weight: bold;
+            family: "Ubuntu", sans-serif;
+            style: italic;
+           }  
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+       p{
+        font-size: 18px;
+        text-align: justify;
+       }
+    }
+
+  
+}
+
+.ui-autocomplete {
+    width: 100px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white; 
+    border: 1px solid #ddd;
+}
+.ui-menu-item {
+    padding: 5px 5px; 
+    list-style-type: none;
+}
+
+.ui-menu-item:hover {
+    background-color: $bodyColor;
+}
+
+.ui-helper-hidden-accessible{
+    display:none;
+}

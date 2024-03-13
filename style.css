@@ -1,0 +1,66 @@
+body {
+  background-color: #ffe6f2 !important;
+}
+
+.btnPink {
+  background-color: #ff0080 !important;
+}
+
+h1, h2 {
+  font-family: "Dancing Script", cursive;
+  color: #ff0080 !important;
+}
+
+.homePage p {
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+}
+
+.form-control:focus {
+  border-color: #ff0080 !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 128, 0.25) !important;
+}
+
+.list-group .list-group-item {
+  padding-bottom: 40px;
+  border: none;
+  text-decoration: none;
+  display: inline;
+  background-color: #ffe6f2;
+}
+.list-group .list-group-item a {
+  text-decoration: none;
+  color: #ff0080;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-style: italic;
+}
+.list-group .list-group-item a:hover {
+  text-decoration: underline;
+}
+.list-group .list-group-item p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.ui-autocomplete {
+  width: 100px;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.ui-menu-item {
+  padding: 5px 5px;
+  list-style-type: none;
+}
+
+.ui-menu-item:hover {
+  background-color: #ffe6f2;
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+    <title>AutoComplete task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/bef3cd2fbe.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Wikipedia
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div id="carouselExampleSlidesOnly " class="carousel slide " data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active bg-dark">
+                    <img src="img/flower.jpg" class="d-block w-100 h-75 object-fit-cover opacity-50 bg-dark" alt="...">
+
+                    <div class="position-absolute top-50 start-50 translate-middle">
+
+                        <div class="text-center text-light homePage">
+                            <h1 class="display-2">Wikipedia API Search</h1>
+                            <p>Search to test autocomplete jquery</p>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="searchInput" placeholder="Search here ..."
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class=" btn btnPink text-light" type="button" id="searchButton">Search</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="search-result w-100  pb-5">
+            <h2 class="text-center pt-3 result-title display-4 text-dark" id="result-title"></h2>
+            <ul id="searchResults" class="list-group "></ul>
+
+        </div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-muted">© 2024 Wikipedia, Inc</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </footer>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
