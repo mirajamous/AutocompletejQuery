@@ -4,13 +4,6 @@ A simple and elegant **Wikipedia Search App** built with **jQuery, Bootstrap, an
 It features a smooth **autocomplete search bar** that suggests topics from Wikipedia as you type,  
 and displays summaries of matching articles dynamically.
 
----
-
-## Preview
-![App Preview](./img/homePage.png)
-![App Preview](./img/search.png)
-![App Preview](./img/afterSearch.png)
-![App Preview](./img/result.png)
 
 ---
 
@@ -54,3 +47,10 @@ Uses the [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page):
 - `action=query` → for fetching article summaries
 
 ---
+
+## Preview
+![App Preview](./img/homePage.png)
+![App Preview](./img/search.png)
+![App Preview](./img/afterSearch.png)
+![App Preview](./img/result.png)
+
