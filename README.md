@@ -29,7 +29,7 @@ and displays summaries of matching articles dynamically.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/AutocompletejQuery.git
+   git clone https://github.com/mirajamous/AutocompletejQuery.git
    ```
 2. Open the folder:
     ```bash
